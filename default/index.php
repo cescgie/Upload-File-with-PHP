@@ -47,7 +47,7 @@ $select = $db->select("SELECT * FROM images ORDER BY id DESC");
 		<title>Upload File</title>
 	</header>
 <body style="margin-left:50px;margin-top:50px;">
-	<a href="default.php"><h1>Upload File</h1></a>
+	<a href="index.php"><h1>Upload File</h1></a>
 	<form action="" method="POST" enctype="multipart/form-data">
 	  <input type="file" name="image"/>
 	  <input type="submit" value="Submit"/>
